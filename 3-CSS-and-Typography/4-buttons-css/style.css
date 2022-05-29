@@ -1,0 +1,10 @@
+section {
+  padding: 16px;
+}
+
+a,
+button {
+  outline: none;
+  cursor: pointer;
+  padding: 5px 15 px;
+}
