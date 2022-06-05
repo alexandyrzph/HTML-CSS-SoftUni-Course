@@ -1,0 +1,38 @@
+html {
+  font-family: Helvetica, sans-serif;
+  padding: 4rem;
+}
+
+nav {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  display: inherit;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: green;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+.nav__site__title {
+  display: inline;
+  text-transform: uppercase;
+  margin-right: 7rem;
+  font-size: 3rem;
+}
+
+h1 {
+  font-family: serif;;
+}
