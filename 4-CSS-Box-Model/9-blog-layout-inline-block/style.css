@@ -1,0 +1,28 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+body {
+  padding: 3rem;
+  background-color: rgb(238, 238, 238);
+}
+
+header,
+article,
+img {
+  max-width: 60%;
+}
+
+a {
+  color: blue;
+}
+
+header {
+  display: inline-block;
+}
+
+aside {
+  margin-left: 1rem;
+  display: inline-block;
+}
