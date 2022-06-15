@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+div,
+section {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  max-width: 65vw;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3rem;
+  text-align: center;
+}
+
+section.week {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section.notes {
+  flex-direction: column;
+  align-self: stretch;
+}
+
+section.notes * {
+  height: 100%;
+}
+
+.week span:first-child {
+  align-self: stretch;
+  width: 100%;
+}
+
+.week span:not(:first-child) {
+  flex-grow: 1;
+}
+
+.week .weekend {
+  width: 100%;
+}
