@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul {
+  width: 100%;
+  display: inherit;
+  justify-content: center;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+ul li a {
+  color: var(--clr-black);
+}
+
+.header__right {
+  text-decoration: none;
+  display: inherit;
+  align-self: center;
+}

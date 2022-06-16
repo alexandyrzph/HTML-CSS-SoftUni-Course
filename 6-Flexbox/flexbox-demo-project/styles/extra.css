@@ -1,0 +1,44 @@
+#extras {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+#extras .extras__title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+#extras .extras__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#extras .extra__grid-card {
+  display: grid;
+  grid-template-areas:
+    "img title . ."
+    "par par par par";
+  align-items: center;
+  gap: 1rem;
+}
+
+#extras .extras__img {
+  background: var(--gradient-yellow);
+  border-radius: 50%;
+  padding: 0.5rem;
+  grid-area: img;
+  overflow: hidden;
+}
+
+#extras .extras__text-bold {
+  font-weight: 600;
+  grid-area: title;
+}
+
+#extras .extras__text-light {
+  font-weight: 400;
+  font-size: 16px;
+  grid-area: par;
+}

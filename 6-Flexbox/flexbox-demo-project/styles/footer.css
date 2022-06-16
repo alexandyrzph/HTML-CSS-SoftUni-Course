@@ -1,0 +1,21 @@
+#footer .section-container {
+  display: flex;
+}
+
+#footer .logo {
+  align-items: center;
+}
+
+#footer .footer__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footer > div > ul > li:nth-child(4) {
+  margin-right: 2rem;
+}
+
+#footer .icon {
+  margin-left: -2rem;
+}

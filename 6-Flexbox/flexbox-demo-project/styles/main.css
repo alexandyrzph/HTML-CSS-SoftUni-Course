@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+:root {
+  --clr-purple: #c0c2ff;
+  --clr-purple-light: #efe5ff;
+  --clr-black: #191919;
+  --clr-white: #ffffff;
+  --clr-gray-text: #78727f;
+  --clr-gray-bg: #f5f6f8;
+  --gradient-grey: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  --gradient-grey-rotated: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 13%,
+    rgba(0, 212, 255, 0) 85%
+  );
+  --gradient-purple: linear-gradient(96.04deg, #f2eefd 0%, #e1befc 100%);
+  --gradient-yellow: linear-gradient(135deg, #e2cc94 0%, #f5b81b 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: var(--clr-black);
+  background-color: var(--clr-white);
+}
+
+.btn--dark {
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+}
+
+.section {
+  padding: 96px 4rem;
+}
+
+.section-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}

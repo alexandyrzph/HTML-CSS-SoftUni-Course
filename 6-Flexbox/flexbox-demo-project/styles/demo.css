@@ -1,0 +1,42 @@
+#demo .section-container {
+  display: flex;
+  justify-content: space-between;
+  background: var(--gradient-purple);
+  border-radius: 24px;
+  align-items: center;
+  position: relative;
+}
+
+#demo .demo__container {
+  margin-left: 3.813rem;
+}
+
+#demo .demo__title {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 2.5rem;
+}
+
+#demo .btn {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#demo .demo__list {
+  list-style: none;
+  line-height: 2rem;
+}
+
+#demo .demo__list-item::before {
+  content: "\2022";
+  color: #666666;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+}
+
+#demo .demo__img {
+  position: relative;
+  top: 60px;
+  right: 30px;
+}

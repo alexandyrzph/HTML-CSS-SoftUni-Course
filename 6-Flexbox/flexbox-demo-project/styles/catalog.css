@@ -1,0 +1,26 @@
+#catalog .section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#catalog .info {
+  width: 40%;
+}
+#catalog .info__title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#catalog .info__text {
+  color: var(--clr-gray-text);
+  margin-bottom: 1.25rem;
+}
+#catalog .info__link {
+  color: var(--clr-black);
+}
+
+#catalog .catalog__img {
+  width: 45%;
+  max-width: 380px;
+}
