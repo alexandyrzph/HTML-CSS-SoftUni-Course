@@ -19,7 +19,6 @@ span {
 }
 
 section.week {
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -29,18 +28,14 @@ section.notes {
 }
 
 section.notes * {
-  height: 100%;
+  flex: 1 0;
 }
 
-.week span:first-child {
-  align-self: stretch;
-  width: 100%;
+.week span:first-child,
+.week .weekend {
+  flex: 1 0 100%;
 }
 
 .week span:not(:first-child) {
   flex-grow: 1;
-}
-
-.week .weekend {
-  width: 100%;
 }
