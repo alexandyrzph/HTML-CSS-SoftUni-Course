@@ -17,7 +17,19 @@
   margin-bottom: 1.25rem;
 }
 #catalog .info__link {
-  color: var(--clr-black);
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+
+#catalog .info__link::after {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 100%;
+  background-color: #000000;
+  left: 0;
+  bottom: -3px;
 }
 
 #catalog .catalog__img {
