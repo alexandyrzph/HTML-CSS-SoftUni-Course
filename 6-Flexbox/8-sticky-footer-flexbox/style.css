@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  flex-direction: column;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+main h2 {
+  font-family: serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #666666;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+}
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
