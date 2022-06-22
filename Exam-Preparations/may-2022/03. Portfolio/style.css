@@ -30,7 +30,7 @@ body {
   background-color: var(--clr-lightgray);
   padding: var(--padding-section);
   margin-bottom: 2rem;
-  height: 80vh;
+  height: 100%;
 }
 
 .divider {
