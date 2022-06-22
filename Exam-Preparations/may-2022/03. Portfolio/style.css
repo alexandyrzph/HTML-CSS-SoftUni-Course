@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --clr-lightgray: #efefef;
+  --clr-text-darkgray: #222222;
+  --clr-white: #ffffff;
+  --clr-text-dark: #111111;
+}
+
+body {
+  padding: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+#header {
+  display: none;
+}
+
+/* Hero Section */
+
