@@ -5,7 +5,7 @@
   --clr-text-dark-gray: #222222;
   --clr-white: #ffffff;
   --clr-text-dark: #111111;
-  --padding-section: 5rem;
+  --padding-section: 10rem;
   --clr-social: #909090;
 }
 
@@ -46,8 +46,18 @@ body {
   width: 4rem;
 }
 
-#header {
-  display: none;
+.btn--menu {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+
+.btn--menu .text {
+  margin-right: 0.5rem;
 }
 
 /* Hero Section */
@@ -135,4 +145,95 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Bridge Section */
+
+#bridge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.default-desc.bridge {
+  width: 77%;
+}
+
+.bridge-img {
+  width: 52%;
+}
+
+/* Gallery */
+
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery img {
+  width: 34%;
+}
+
+#gallery img:nth-child(2) {
+  transform: scale(1.5);
+}
+
+/* Contacts Section */
+
+#contacts {
+  text-align: center;
+}
+
+#contacts .contacts-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contacts-content .form {
+  display: grid;
+
+  grid-template-areas:
+    "email subject"
+    "msg msg"
+    "btn btn";
+  gap: 2rem;
+  width: 50%;
+  margin: 4rem auto 0;
+}
+
+.form-name {
+  grid-area: email;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border: 1px solid var(--clr-text-dark);
+}
+
+.form-subject {
+  grid-area: subject;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--clr-text-dark);
+}
+
+.form-message {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  grid-area: msg;
+  border: 1px solid var(--clr-text-dark);
+}
+
+.form-btn {
+  cursor: pointer;
+  grid-area: btn;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  background-color: var(--clr-text-dark);
+  color: var(--clr-white);
+  border-style: none;
+}
+.contacts-content .form input,
+.contacts-content .form textarea {
+  background-color: transparent;
 }
