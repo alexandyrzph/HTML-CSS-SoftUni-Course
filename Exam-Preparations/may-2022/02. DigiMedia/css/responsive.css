@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-light .navbar-brand {
+    margin-right: unset;
+  }
+  .hero h1 {
+    margin-top: 80px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero > img {
+    display: none;
+  }
+
+  .side-img,
+  .side2-img {
+    position: relative;
+  }
+
+  .side-img {
+    top: 85px;
+  }
+
+  .side2-img {
+    top: -183px;
+  }
+
+  .hero .hero-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .hero-btns.service-btn {
+    margin-bottom: 6rem;
+  }
+
+  .hero-btns.service-btn a {
+    padding: 17px 35px;
+  }
+
+  #about-us .service-txt {
+    text-align: center;
+  }
+
+  .col-sm-6 {
+    flex: 1 0 50%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .service-box {
+    padding: 40px 28px 10rem;
+  }
+
+  .about {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    max-height: 550px;
+    text-align: center;
+    font-size: 1.2rem;
+    max-height: 500px;
+  }
+
+  .col-sm-12 {
+    margin-top: 4rem;
+  }
+
+  footer h3 {
+    padding: 1rem 2rem;
+  }
+  footer h6 {
+    padding-bottom: 15px;
+  }
+
+  .contact-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-btns.contact-btn {
+    display: none;
+  }
+}
