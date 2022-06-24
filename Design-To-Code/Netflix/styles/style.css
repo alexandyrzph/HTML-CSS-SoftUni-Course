@@ -164,7 +164,9 @@ body {
   width: 100%;
 }
 
-#watch,#enjoy,#download {
+#watch,
+#enjoy,
+#download {
   background-color: var(--clr-dark);
 }
 
@@ -305,7 +307,8 @@ body {
   font-weight: 400;
 }
 
-#footer a:hover, #footer h2:hover  {
+#footer a:hover,
+#footer h2:hover {
   cursor: pointer;
   transition: all 150ms;
   color: #fff;
@@ -315,9 +318,7 @@ body {
   font-size: 14px;
   margin-top: 1rem;
   color: var(--clr-light-gray);
-
 }
-
 
 @media screen and (min-width: 768px) {
   :root {
@@ -357,7 +358,6 @@ body {
     padding-left: 10%;
     padding-right: 10%;
   }
-
 
   #faq .content-section form {
     flex-direction: row;
