@@ -49,6 +49,14 @@ picture {
   display: block;
 }
 
+button, a {
+  cursor: pointer;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
