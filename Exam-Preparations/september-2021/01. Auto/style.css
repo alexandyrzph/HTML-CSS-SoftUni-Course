@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --clr-black: #222222;
+  --clr-gray: #898989;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  display: flex;
+}
+
+#content {
+  width: 53%;
+  margin-right: 1rem;
+}
+
+.content__title,
+.list__title {
+  font-weight: 600;
+  color: var(--clr-black);
+  margin-bottom: 1rem;
+}
+
+.content__text {
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.75px;
+  color: var(--clr-gray);
+  font-size: 16px;
+  font-weight: 00;
+}
+
+.content__list {
+  margin-top: 1rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.content__list-item {
+  display: flex;
+}
+
+.list-image {
+  max-width: 70px;
+  padding-right: 0.75rem;
+}
+
+.list__text {
+  color: var(--clr-gray);
+}
+
+.list__title {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.content__list-item {
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#car-image img {
+  width: 100%;
+}
