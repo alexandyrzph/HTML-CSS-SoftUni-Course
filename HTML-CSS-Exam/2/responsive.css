@@ -1,0 +1,91 @@
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  main {
+    width: 100%;
+    margin: unset;
+  }
+
+  .left-to-right:first-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-to-right:first-child {
+    padding: unset;
+  }
+
+  .left-to-right article {
+    margin-bottom: 3rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  main .left-to-right article {
+    border-radius: 100px;
+    width: unset;
+    padding: 3rem 3rem;
+    width: 63%;
+  }
+  main .left-to-right article p {
+    line-height: 2.2;
+  }
+  main section.left-to-right:nth-child(3) {
+    padding: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-to-right:first-child {
+    width: 100%;
+  }
+
+  .left-to-right:first-child article {
+    width: 360px;
+  }
+  .left-to-right article button {
+    display: none;
+  }
+
+  main section:nth-child(2) article { 
+    padding-left: 3.5rem ;
+    padding-right: 3.5rem;
+    font-size: 15px;
+  }
+
+  main section:nth-child(2),
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+
+  main section:nth-child(2) button,
+  main section:nth-child(4) button {
+    display: none;
+  }
+  body
+    > main
+    > section:nth-child(4)
+    > article:nth-child(1)
+    > form
+    > label:nth-child(4) {
+    display: flex;
+  }
+  section article form {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section:nth-child(2) article, main section:nth-child(4) article { 
+  margin-left: unset;  
+  }
+
+  section article form label input,
+  section article form label textarea {
+    width: 100%;
+  }
+}
